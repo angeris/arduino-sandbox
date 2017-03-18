@@ -110,6 +110,7 @@ void clear_display() {
 void setup() {
     Wire.begin();
     Wire.setClock(400000L); // Set bitrate to 400 kbit/s
+    clear_display();
     flush_display();
 }
 
